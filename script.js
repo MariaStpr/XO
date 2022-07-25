@@ -6,7 +6,7 @@ const gameStatus = document.querySelector('.game--status'); //статус иг�
 
 let currentUser = 'X'; //текущий пользователь
 let activeGame = true; //активность игры
-let gameState = ["", "", "", "", "", "", "", "", ""]; //ячейки
+let gameState = ["", "", "", "", "", "", "", "", ""]; // массив значений ячеек
 
 const winningLines = [
     [0, 1, 2],
